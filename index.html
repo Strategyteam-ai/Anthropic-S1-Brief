@@ -142,17 +142,16 @@ td.b { font-weight: 700; }
 .pop {
   position: fixed; z-index: 50; width: min(380px, calc(100vw - 32px));
   max-height: min(60vh, 440px); overflow: auto;
-  background: var(--paper); color: var(--body);
-  border: 1px solid var(--rule); border-top: 3px solid var(--peri); border-radius: 8px;
+  background: var(--navy); color: #ffffff;
+  border: 1px solid var(--navy); border-top: 3px solid var(--sky); border-radius: 8px;
   box-shadow: 0 12px 36px rgba(11,17,80,.22);
   padding: 12px 14px 14px; font-size: 13.5px; line-height: 1.45;
 }
-.pop h4 { margin: 0 0 6px; font-size: 12.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--peri); padding-right: 22px; }
+.pop h4 { margin: 0 0 6px; font-size: 12.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--sky); padding-right: 22px; }
 .pop p { margin: 0 0 6px; }
 .pop ul { margin: 0 0 6px; padding-left: 18px; }
 .pop li { margin-bottom: 3px; }
-.pop .x { position: absolute; top: 6px; right: 8px; border: 0; background: none; font-size: 18px; color: var(--muted); cursor: pointer; line-height: 1; padding: 4px; }
-.pop .by { margin-top: 8px; font-size: 12px; color: var(--muted); }
+.pop .x { position: absolute; top: 6px; right: 8px; border: 0; background: none; font-size: 18px; color: #c9cdf2; cursor: pointer; line-height: 1; padding: 4px; }
 
 @media (max-width: 860px) {
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -285,7 +284,6 @@ td.b { font-weight: 700; }
   <button class="x" id="pop-x" aria-label="Close">×</button>
   <h4 id="pop-h"></h4>
   <div id="pop-b"></div>
-  <div class="by">Anshul Apurva</div>
 </div>
 
 <script>
